@@ -1,0 +1,51 @@
+.login{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+}
+.info__box{
+    padding: 20px;
+    flex: 0.5;
+    background-color: var(--twitter-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.login__box{
+    padding: 20px;
+    flex: 0.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.signin__button{
+    margin-top: 20px !important;
+    text-transform: inherit !important;
+    color: white !important;
+    background-color: var(--twitter-color) !important;
+    min-width: fit-content !important;
+    width: 100% !important;
+    border-radius: 20px !important;
+}
+.login__detailsText{
+    margin-top: 40px;
+    font-size: 15px;
+}
+
+.twitter__icon{
+    color: var(--twitter-color) !important;
+}
+
+.span__text{
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.info__boxData{
+    margin-top: 18px;
+}

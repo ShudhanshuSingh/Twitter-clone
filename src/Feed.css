@@ -1,0 +1,30 @@
+.feed{
+    flex: 0.6;
+    border-right: 1px solid var(--twitter-background);
+    max-width: 1000px;
+    /* min-width: fit-content; */
+    overflow-y: scroll;
+
+}
+
+.feed__header{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    padding: 15px 20px;
+    font-weight: 900;
+    border-bottom: 1px solid var(--twitter-background);
+    z-index: 5;
+}
+.feed::-webkit-scrollbar{
+    display: none;
+}
+.feed{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+@media only screen and (max-width: 600px) {
+    .feed{
+        flex: 0.8;
+    }
+  }

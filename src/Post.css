@@ -1,0 +1,63 @@
+.post{
+    display: flex;
+    align-items: flex-start;
+    border-bottom: 1px solid var(--twitter-background);
+    padding-bottom: 10px;
+}
+
+
+.post__header{
+    
+}
+.post__body{
+    flex: 1;
+    padding: 10px;
+}
+.post__badge{
+    font-size: 14px !important;
+    color: var(--twitter-color) !important;
+}
+
+.post__body > img{
+    width: 100%;
+    border-radius: 20px;
+    object-fit: contain;
+
+}
+
+.post__footer{
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 10px; */
+    padding: 10px;
+}
+.post__footer:hover{
+    transition: color 1s ease-in-out;
+}
+
+.post__headerSpecial{
+    font-weight: 600;
+    font-size: 14px;
+    color: gray;
+}
+.post__headerDescription{
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+.post__avatar{
+    padding: 20px;
+}
+
+.post__chatButton:hover{
+    color: #1DA1F2 !important;
+}
+.post__retweet:hover{
+    color: #17BF63 !important;
+}
+.post__favourite:hover{
+    color: #E12F66 !important;
+}
+.post__publish:hover{
+    color: #4EB5F4 !important;
+}
+    
