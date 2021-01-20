@@ -5,7 +5,7 @@ You can contribute to this project and also add new features if you want.
 # Get started
 - fork the repository and then clone it using ```git clone```
 ``` 
-cd poll-maker
+cd twitter-clone
 npm install
 npm start
 
